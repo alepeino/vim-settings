@@ -1,4 +1,5 @@
 " http://blog.venanti.us/clojure-vim/
+" https://github.com/frenchy64/vimrc
 
 syntax enable
 
@@ -10,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'bhurlow/vim-parinfer'
 Plugin 'tpope/vim-fireplace'
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 
 filetype plugin indent on
